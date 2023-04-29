@@ -1,18 +1,18 @@
-@import url(https://fonts.google.com/specimen/Raleway);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 :root{
-    --primary-color: 377771;
-    --secondary-color: FFFBBD;
-    --accent1-color: CA3C25;
-    --accent2-color: 1D1A05;
+    --primary-color: #377771;
+    --secondary-color: #FFFBBD;
+    --accent1-color: #CA3C25;
+    --accent2-color: #1D1A05;
 
-    --heading-font: 'Raleway', serif;
-    --paragraph-font: 'Raleway'. serif;
+    --heading-font: Raleway;
+    --paragraph-font: Raleway;
 
-    --nav-background-color: FFFBBD;
-    --nav-link-color: 1D1A05;
-    --nav-hover-link-color: CA3C25;
-    --nav-hover-background-color: 377771;
+    --nav-background-color: #FFFBBD;
+    --nav-link-color: #1D1A05;
+    --nav-hover-link-color: #CA3C25;
+    --nav-hover-background-color: #377771;
 }
 
 body{
@@ -28,15 +28,15 @@ h1, h2, h3, h4, h5, h6{
 }
 header{
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 
 }
 p{
-    padding: 20px;
+    padding: 25px;
 }
 
 nav{
-    background-color: var(--nav-background-color);
+    background-color: var(--accent1-color);
     font-size: 1.2rem;
     display: flex;
 
