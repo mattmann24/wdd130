@@ -1,0 +1,59 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+
+:root{
+    --primary-color: 377771;
+    --secondary-color: FFFBBD;
+    --accent1-color: CA3C25;
+    --accent2-color: 1D1A05;
+
+    --heading-font: 'Raleway', serif;
+    --paragraph-font: 'Raleway'. serif;
+
+    --nav-background-color: FFFBBD;
+    --nav-link-color: 1D1A05;
+    --nav-hover-link-color: CA3C25;
+    --nav-hover-background-color: 377771;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+
+}
+p{
+    padding: 20px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-background-color);
+    background-color: var(--nav-hover-background-color);
+}
