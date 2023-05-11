@@ -18,7 +18,7 @@ nav a {
 
 .author {
     color: steelblue;
-    border-bottom:  5px steelblue;
+    border-bottom:  2px solid steelblue;
 }
 
 main img {
@@ -36,24 +36,20 @@ p{
 
 }
 
-main{
-    max-width: 850px;
-}
-aside{
+aside {
     margin: 1em;
     border: 1px solid rgba(0,0,0,.2);
     padding: 1em;
     background-color: #23854e;
     color: white;
     text-align: center;
-    width: 20em;
-    text-align: center;
- 
 }
+
 aside img{
     width: 200px;
     height: auto;
 }
+
 footer{
     margin-top: 1em;
     border-top: 1px solid #000;
@@ -76,10 +72,13 @@ footer{
     color: #000;
 }
 
+
+/* Moved the h2 so that it's not covering the image of the Utah border*/
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 30px;
+    left: 185px;
+    color: black
 }
 
 header, .grid, footer {
