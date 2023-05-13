@@ -66,18 +66,74 @@ h1, h2, h3, h4, h5, h6{
 
 }
 header{
-    padding: 20px;
+    padding: 30px;
     background-color: var(--secondary-color);
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
 }
+
+.logo-box {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.headernav{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
 p{
     padding: 25px;
 }
+
+.hist {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hist2 p {
+    max-width: 900px;
+    background-color: rgba(255, 251, 189, .7);
+}
+
+.imagegrid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adventure h2{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    max-height: 100px;
+    width: auto;
+}
+.img2{
+    max-height: 100px;
+    width: auto;
+}
+.img3{
+    max-height: 100px;
+    width: auto;
+}
+.img4{
+    max-height: 100px;
+    width: auto;
+}
+.img5{
+    max-height: 100px;
+    width: auto;
+}
+
 
 nav{
     background-color: var(--accent1-color);
     font-size: 1.2rem;
     display: flex;
+    list-style: none;
 
 }
 nav a{
@@ -95,4 +151,17 @@ nav a:link, nav a:visited{
 nav a:hover{
     color: var(--nav-background-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.facebook, .insta, .twitter {
+    max-height: 40px;
+    
+}
+
+.footer-box{
+    background-color: #CA3C25;
+    display: flex;
+    max-height: 60px;
+    justify-content: end;
+    padding: .75rem;
 }
