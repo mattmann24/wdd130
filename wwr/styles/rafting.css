@@ -282,7 +282,6 @@ form{
     grid-row: 1/3;
     grid-column: 2/3;
     padding: 1rem;
-
 }
 
 .paul
@@ -311,6 +310,7 @@ form{
     border-style: solid;
     padding: 1rem;
     margin: 1rem;
+    background-color: rgb(188,171,121, .5);
 }
 .empinfo2{
     grid-row: 3/5;
@@ -320,6 +320,7 @@ form{
     margin: 1rem;
     display: flex;
     justify-content: center;
+    background-color: rgb(188,171,121, .5);
 }
 
 
@@ -329,6 +330,7 @@ form{
     border-style: solid;
     padding: 1rem;
     margin: 1rem;
+    background-color: rgb(188,171,121, .5);
 }
 
 .custex{
